@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+ul,
+p {
+  margin: 0;
+}
+
+iframe {
+  display: none;
+}
+
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./fonts/rubik.scss";
+@import "./blocks/singupform.scss";
+@import "./blocks/header.scss";
+@import "./blocks/content.scss";

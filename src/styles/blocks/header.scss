@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+
+  @include onPhone {
+    padding: 20px 10px;
+  }
+}
